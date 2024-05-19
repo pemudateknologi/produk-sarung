@@ -1,0 +1,168 @@
+/** @format */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 80px;
+  align-items: center;
+  background-color: bisque;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+nav ul {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(122, 87, 38);
+}
+
+nav ul li:hover {
+  transition-duration: 0.1s;
+  transform: rotate(10deg);
+}
+
+nav h1 span {
+  color: rgb(122, 87, 38);
+  font-weight: 800;
+}
+
+nav img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  align-items: center;
+  margin-right: -150px;
+}
+
+.serch {
+  display: flex;
+}
+
+.serch input {
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 6px;
+}
+
+.serch button {
+  font-size: 15px;
+  padding: 7px;
+  margin-left: 10px;
+  border: none;
+  background-color: rgb(122, 87, 38);
+  color: white;
+  border-radius: 6px;
+}
+
+.about {
+  padding: 20px 80px;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(191, 109, 8);
+}
+
+.about h1 span {
+  color: rgb(255, 255, 255);
+}
+
+.about h1 {
+  font-size: 50px;
+}
+
+.about p {
+  width: 50%;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.sosialmedia ul {
+  display: flex;
+  margin-top: 30px;
+  list-style: none;
+}
+
+.sosialmedia ul li {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 100%;
+  text-align: center;
+  margin-right: 10px;
+  background-color: rgb(74, 48, 10);
+}
+
+.sosialmedia ul li a {
+  font-size: 30px;
+  border-radius: 100%;
+  text-align: center;
+  color: green;
+}
+
+.foto-gus img {
+  width: 500px;
+  height: 500px;
+}
+
+.peroduk {
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  padding: 10px 80px;
+}
+
+.peroduk .card {
+  background-color: white;
+  width: 236px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.harga p {
+  font-size: 13px;
+}
+
+.harga span {
+  font-size: 15px;
+  font-weight: bold;
+  color: orange;
+}
+
+.harga del {
+  font-size: 11px;
+  font-style: italic;
+  color: rgb(194, 193, 193);
+}
+
+.harga {
+  padding: 5px;
+}
+
+.harga .dua {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 11px;
+}
+
+.harga .tiga {
+  font-size: 11px;
+}
+
+.hero img {
+  width: 100%;
+}
